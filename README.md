@@ -51,12 +51,7 @@ Para ejecutar este flow es necesario lo siguiente:
 Para observar el resultado de este flow, sólo es necesario abrir el navegador y escribir la siguiente dirección http://localhost:1880/ui y dentro de la página hay un menú derecho y hacer clic en flow4, debemos abrir la terminal para poder mandar una instrucción y el resultado se muestra en el navegador. 
 mosquitto_pub -h localhost -t codigoIoT/Mor/mqtt/flow4 -m '{"id":"Cecilia Xolio","temp":16,"hum":51}' 
 
-## Resultados
 
-A continuación puede verse una vista previa del resultado de este flow.
-
-![](https://github.com/Cecilia-X-M/flow4-NodeRed/blob/main/flow4.png)
-![](https://github.com/Cecilia-X-M/flow4-NodeRed/blob/main/flow4.2.png)
 
 # Créditos
 
